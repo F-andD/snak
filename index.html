@@ -1,0 +1,1439 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyfonii - NFT Portfolio and Landing Page HTML Template</title>
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="app/dist/aos.css">
+    <link rel="stylesheet" href="app/dist/animate.css">
+    <link rel="stylesheet" href="app/dist/app.css">
+    <!-- end Styles -->
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/favicon.png">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap">
+    <script>
+        // Ensure this script is correctly placed and executed
+        if (window.location.pathname.endsWith('.html')) {
+            const newUrl = window.location.pathname.slice(0, -5) + window.location.search;
+            window.location.replace(newUrl);
+        }
+    </script>
+</head>
+<body class="home-main header-fixed">
+
+    <div class="wrapper">
+
+        <div class="preloader">
+            <div class="clear-loading loading-effect-2">
+            <span></span>
+            </div>
+        </div>
+
+    <!-- Header -->
+    <header id="header_main" class="header">
+        <div class="container big">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__body">
+                        <div class="header__logo">
+                            <a href="index.html">
+                                <img id="site-logo" src="assets/images/logo/logo.png" alt="Peson" width="160" height="38" data-retina="assets/images/logo/logo@2x.png" data-width="160" data-height="38">
+                            </a>
+                        </div>
+
+                        <div class="header__right">
+                            <nav id="main-nav" class="main-nav">
+                                <div class="block-text center">
+                        <h6 class="sub-heading"><span>Game Is in still beta mode, please be patient !</span></h6>
+                        
+                            
+                    </div>
+                                <ul id="menu-primary-menu" class="menu">
+
+                                    <li class="menu-item menu-item-has-children menu-current-item">
+                                        <a href="#">Home</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="index.html">Home v1</a></li>
+                                            <li class="menu-item"><a href="home-v2.html">Home v2</a></li>
+                                            <li class="menu-item"><a href="home-v3.html">Home v3</a></li>
+                                            <li class="menu-item"><a href="cardcarousel.html">Card Carousel</a></li>
+                                            <li class="menu-item current-item"><a href="zigzagcarousel.html">Zigzag Carousel</a></li>
+                                            <li class="menu-item"><a href="coverflowcarousel.html">Coverflow Carousel</a></li>
+                                            <li class="menu-item"><a href="itemcarousel.html">Item Carousel</a></li>
+                                            <li class="menu-item"><a href="3dcarousel.html">3D Carousel</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#">Explore</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="nft.html">NFTs</a></li>
+                                            <li class="menu-item"><a href="blog.html">Blog List</a></li>
+                                            <li class="menu-item"><a href="blog-details.html">Blog Details</a></li>
+                                            
+                                            <li class="menu-item"><a href="vision-mission.html">Visions & Mission</a></li>
+                                            <li class="menu-item"><a href="help-center.html">Help Center</a></li>
+                                            <li class="menu-item"><a href="parti-asset.html">Participants & Assets</a></li>
+                                            <li class="menu-item"><a href="advisor.html">Advisors & Backers</a></li>
+                                            <li class="menu-item"><a href="partner.html">Partners & Investors</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="roadmap.html">RoadMap</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="team.html">Team</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="policy.html">Policys   </a>
+                                    </li>                                     
+                                </ul>
+                            </nav>
+                            <div class="mobile-button"><span></span></div>
+                        </div>
+
+                        <div class="header__action">
+                            <a href="#" class="search-btn">
+                                <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.7659" cy="9.76639" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                    <path d="M16.0176 16.4849L19.5416 19.9997" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>                                    
+                            </a>
+                            <a href="" class="action-btn"><span>Discord</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end Header -->
+
+    <!-- Banner -->
+    <section class="banner s4" style="zoom: 75%;">
+        <div class="shape right"></div>
+        <div class="container big">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="banner__left">
+                        <div class="block-text">
+                            <h2 class="heading">Enjoy a classic,  Snake game <span class="arlo_tm_animation_text_word"></span>.</h2>
+                            <p class="desc">Join our player community, engage in voice chat, and have fun!</p>
+
+                            <a href="policy.html" class="action-btn"><span>Policy</span></a>
+                        </div>
+
+                        <div class="pay">
+                            <h6>We are Avalable On</h6>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+
+                    <div class="">
+                        <div class="swiper cardSwiper2">
+                        
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="card-box s2">
+
+                                    <div class="image">
+                                        <img src="https://wormate.io/images/youtube/poster.jpg" alt="">
+                                    </div>
+    
+                                    <div class="content">
+                                        
+        
+
+
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-box s2">
+
+                                    <div class="image">
+                                        <img src="https://data.pacogames.com/images/fb/wormateio.jpg" alt="">
+                                    </div>
+    
+                                    <div class="content">
+                                        
+
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-box s2">
+
+                                    <div class="image">
+                                        <img src="https://pbs.twimg.com/media/EE782sXXkAIxC_Q.png" alt="">
+                                    </div>
+    
+                                    <div class="content">
+                                        
+        
+
+                                    </div>
+                                </div>
+                              </div>
+
+                              
+
+                              
+
+    
+                              
+    
+    
+                            </div>
+                            <div class="swiper-button-next s1">
+                                <svg width="10" height="15" viewbox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.8788 7.46543L2.43654 13.8092C2.1795 14.0662 1.76387 14.0662 1.50683 13.8092L1.11856 13.4209C0.861521 13.1639 0.861521 12.7482 1.11856 12.4912L6.7131 7.00059L1.12402 1.50997C0.866998 1.25293 0.866998 0.837303 1.12402 0.580281L1.51231 0.191991C1.76933 -0.0650311 2.18496 -0.0650311 2.442 0.191991L8.88422 6.53574C9.1357 6.79278 9.1357 7.20841 8.8788 7.46543Z" fill="white" fill-opacity="0.5"></path>
+                                </svg>                                
+                            </div>
+                            <div class="swiper-button-prev s1">
+                                <svg width="10" height="15" viewbox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1212 7.46543L7.56346 13.8092C7.8205 14.0662 8.23613 14.0662 8.49317 13.8092L8.88144 13.4209C9.13848 13.1639 9.13848 12.7482 8.88144 12.4912L3.2869 7.00059L8.87598 1.50997C9.133 1.25293 9.133 0.837303 8.87598 0.580281L8.48769 0.191991C8.23067 -0.0650311 7.81504 -0.0650311 7.558 0.191991L1.11578 6.53574C0.864303 6.79278 0.864302 7.20841 1.1212 7.46543Z" fill="white"></path>
+                                </svg>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner -->
+
+    <!-- About -->
+    <section class="about">
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row rev">
+                <div class="col-xl-6 col-md-12">
+                    <div class="about__right">
+                        <div class="images">
+                            <img class="img1" src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/cf9196ed-f51a-4432-8bc2-1c542b073ac1/553728816/wormate-io-screenshot.png" alt="">
+                            <img class="img2" src="https://wormate.io/images/store-coins-button.jpg" alt="">
+                            <img class="img3" src="https://cdn.titotu.io/images/videos/wormate-io-best-trolling-pro-never-mess-with-tiny-snake-epic-wormateio-funnybest-moments-42-400x226.jpg" alt="">
+                            <img class="img4" src="https://wormate.io/images/store-wear-button.jpg" alt="">
+                            <img class="img5" src="https://play-lh.googleusercontent.com/HRGIzs3BbT1sl8NP9usIQOKWgb5qxj2bsbBc2v5MEDGdPG3cngoqxn1VEVm_CbnHZ7Q" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="block-text">
+                        <h6 class="sub-heading"><span>About game</span></h6>
+                        <h3 class="heading wow" data-splitting="">High-quality game physics with voice chat.</h3>
+                            <p class="mb-17">Enjoy a next-level Snake game with realistic physics and integrated voice chat for seamless multiplayer fun!</p>
+                            <p class="mb-26">Experience a top-tier Snake game built in Unreal Engine 5 with stunning visuals and realistic physics. Enjoy smooth gameplay and immersive environments while chatting with friends in real-time. This game combines classic fun with modern technology for an engaging multiplayer experience.</p>
+                            <a href="about.html" class="action-btn"><span>More About Us</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    
+
+    <section class="portfolio">
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-text center">
+                        <h6 class="sub-heading"><span>Game Basics</span></h6>
+                        <h3 class="heading wow" data-splitting="">Gameplay Features <br>
+                            In This Game</h3>
+                            
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="portfolio__left">
+                        <div class="portfolio-box">
+                            <div class="step">1</div>
+                            <div class="icon">
+                                <svg width="38" height="40" viewbox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.625 27.0312L1.11516 25.1201L0.25 22.3438L9.625 17.6562L19 22.3438L18.0232 25.1759L9.625 27.0312Z" fill="#1DE8F1"></path>
+                                    <path d="M9.625 40L0.25 35.3125V22.3438L9.625 27.0312L11.9688 30.4808V36.632L9.625 40Z" fill="#00D0FF"></path>
+                                    <path d="M19 35.3125L9.625 40V27.0312L19 22.3438V35.3125Z" fill="#00BBFF"></path>
+                                    <path d="M28.375 27.0312L19.8652 25.1201L19 22.3438L28.375 17.6562L37.75 22.3438L36.7732 25.1759L28.375 27.0312Z" fill="#B9A2FF"></path>
+                                    <path d="M28.375 40L19 35.3125V22.3438L28.375 27.0312L30.7188 30.4808V36.632L28.375 40Z" fill="#865FFF"></path>
+                                    <path d="M37.75 35.3125L28.375 40V27.0312L37.75 22.3438V35.3125Z" fill="#5C27FE"></path>
+                                    <path d="M19 9.375L10.4902 7.46383L9.625 4.6875L19 0L28.375 4.6875L27.3982 7.51961L19 9.375Z" fill="#7986E8"></path>
+                                    <path d="M19 22.3438L9.625 17.6562V4.6875L19 9.375L21.3438 12.7464V18.9757L19 22.3438Z" fill="#6E77E5"></path>
+                                    <path d="M28.375 17.6562L19 22.3438V9.375L28.375 4.6875V17.6562Z" fill="#4C5CE1"></path>
+                                    </svg>
+                                    
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Play With Your Friends</h5>
+                                <p>Connect with your friends and dive into exciting adventures together. Team up, compete, and conquer challenges in a fun and interactive environment. Enjoy endless hours of entertainment and camaraderie in our multiplayer game!</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="step">2</div>
+                            <div class="icon">
+                                <svg width="38" height="40" viewbox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.95254 7.0368V9.32914H1.1348C0.494411 9.32914 0.120349 10.0513 0.489802 10.5744L4.47918 16.2224C4.79379 16.6679 5.45457 16.6679 5.76918 16.2224L9.75855 10.5744C10.128 10.0513 9.75394 9.32914 9.11355 9.32914H7.29582V7.0368C7.29582 5.55156 8.50418 4.3432 9.98949 4.3432C11.4748 4.3432 12.683 5.55156 12.683 7.0368V20.1065H17.0262V7.0368C17.0262 3.15672 13.8695 0 9.98941 0C6.10933 0 2.95254 3.15672 2.95254 7.0368Z" fill="#00E3FF"></path>
+                                    <path d="M17.0255 7.03664V20.1062H14.6336V7.03664C14.6336 3.56461 12.1056 0.67125 8.79297 0.102266C9.18172 0.0346094 9.58086 0 9.98898 0C13.8691 0 17.0255 3.15656 17.0255 7.03664Z" fill="#00D0FF"></path>
+                                    <path d="M30.2029 39.9999H7.79977C7.00305 39.9999 6.33133 39.4059 6.23398 38.6151L4.24609 22.467H33.7565L31.7687 38.6151C31.6713 39.4059 30.9996 39.9999 30.2029 39.9999Z" fill="#865FFF"></path>
+                                    <path d="M4.24609 22.4673L4.59867 25.3306H15.8534C16.4356 25.3306 16.9819 25.6428 17.2505 26.1592C17.5791 26.7913 18.2398 27.2229 19.0013 27.2229C19.763 27.2229 20.4236 26.7913 20.7522 26.1592C21.0208 25.6428 21.567 25.3306 22.1492 25.3306H27.9644C29.2641 25.3306 30.2705 26.4685 30.1117 27.7585L28.7753 38.6148C28.6775 39.406 28.0063 39.9999 27.2095 39.9999H30.203C30.9998 39.9999 31.671 39.406 31.7688 38.6148L33.7566 22.4673H4.24609Z" fill="#5C27FE"></path>
+                                    <path d="M16.3707 36.3227C15.5938 36.377 14.92 35.7913 14.8656 35.0144L14.4488 29.0537C14.3945 28.2769 14.9802 27.603 15.7572 27.5487C16.534 27.4944 17.2079 28.0801 17.2622 28.857L17.679 34.8176C17.7333 35.5945 17.1476 36.2683 16.3707 36.3227Z" fill="#070A29"></path>
+                                    <path d="M10.7584 36.2906C9.98717 36.399 9.27413 35.8617 9.16577 35.0905L8.33421 29.1734C8.22585 28.4022 8.76311 27.6891 9.53436 27.5808C10.3056 27.4724 11.0187 28.0097 11.127 28.7809L11.9586 34.698C12.0669 35.4691 11.5296 36.1823 10.7584 36.2906Z" fill="#070A29"></path>
+                                    <path d="M21.7025 36.3227C22.4793 36.377 23.1532 35.7913 23.2075 35.0144L23.6243 29.0537C23.6786 28.2769 23.0929 27.603 22.316 27.5487C21.5391 27.4944 20.8653 28.0801 20.8109 28.857L20.3941 34.8176C20.3399 35.5945 20.9256 36.2683 21.7025 36.3227Z" fill="#070A29"></path>
+                                    <path d="M27.3156 36.2906C28.0869 36.399 28.7999 35.8617 28.9083 35.0905L29.7398 29.1734C29.8482 28.4022 29.3109 27.6891 28.5397 27.5808C27.7685 27.4724 27.0554 28.0097 26.947 28.7809L26.1155 34.698C26.007 35.4691 26.5444 36.1823 27.3156 36.2906Z" fill="#070A29"></path>
+                                    <path d="M34.2805 23.359H3.72273C2.59875 23.359 1.6875 22.4479 1.6875 21.3238C1.6875 20.1998 2.59867 19.2886 3.72273 19.2886H34.2805C35.4045 19.2886 36.3158 20.1997 36.3158 21.3238C36.3158 22.4479 35.4045 23.359 34.2805 23.359Z" fill="#DEC7FF"></path>
+                                    <path d="M36.315 21.3237C36.315 21.8861 36.087 22.394 35.7187 22.7624C35.3511 23.1308 34.8416 23.3587 34.2799 23.3587H31.4766C32.0382 23.3587 32.5477 23.1308 32.9153 22.7624C33.2837 22.394 33.5116 21.8861 33.5116 21.3237C33.5116 20.1996 32.6005 19.2886 31.4766 19.2886H34.2799C35.4039 19.2886 36.315 20.1997 36.315 21.3237Z" fill="#FCA863"></path>
+                                    <path d="M35.0425 11.061V18.9871H36.8602C37.5006 18.9871 37.8747 19.7093 37.5052 20.2324L33.5159 25.8804C33.2013 26.3259 32.5405 26.3259 32.2259 25.8804L28.2365 20.2324C27.867 19.7093 28.2411 18.9871 28.8815 18.9871H30.6992V11.061C30.6992 9.57573 29.4909 8.36737 28.0055 8.36737C26.5202 8.36737 25.312 9.57573 25.312 11.061V19.2885H20.9688V11.061C20.9688 7.18081 24.1255 4.02417 28.0055 4.02417C31.8856 4.02417 35.0425 7.18089 35.0425 11.061Z" fill="#7986E8"></path>
+                                    <path d="M37.5033 20.2325L33.5138 25.88C33.1991 26.3259 32.5391 26.3259 32.2244 25.88L31.7793 25.2498L35.323 20.2326C35.6923 19.7095 35.319 18.9867 34.6783 18.9867H33.665C33.2205 18.9867 32.8602 18.6264 32.8602 18.1819V11.0608C32.8602 7.55172 30.2783 4.63422 26.9141 4.10868C27.3525 4.04024 27.8032 4.01211 28.263 4.02891C32.0615 4.16735 35.0404 7.35094 35.0404 11.152V18.9866H36.8585C37.4984 18.9866 37.8727 19.7094 37.5033 20.2325Z" fill="#4C5CE1"></path>
+                                    </svg>
+                                    
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Voice Chat</h5>
+                                <p>Communicate seamlessly with built-in voice chat. Strategize, coordinate, and enjoy real-time conversations with your friends. Enhance your gaming experience with clear and instant communication!
+
+
+
+
+
+
+</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="step">3</div>
+                            <div class="icon">
+                                <svg width="40" height="36" viewbox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.2031 32.0625C28.2031 32.7187 27.6876 33.2344 27.0312 33.2344H12.9688C12.3124 33.2344 11.7969 32.7187 11.7969 32.0625C11.7969 31.4062 12.3124 30.8906 12.9688 30.8906H27.0312C27.6876 30.8906 28.2031 31.4062 28.2031 32.0625Z" fill="#DEC7FF"></path>
+                                    <path d="M28.2031 32.0625C28.2031 32.7187 27.6876 33.2344 27.0312 33.2344H17.6562V30.8906H27.0312C27.6876 30.8906 28.2031 31.4062 28.2031 32.0625Z" fill="#5C27FE"></path>
+                                    <path d="M28.2031 3.9375C28.2031 4.59367 27.6876 5.10938 27.0312 5.10938H12.9688C12.3124 5.10938 11.7969 4.59367 11.7969 3.9375C11.7969 3.28117 12.3124 2.76562 12.9688 2.76562H27.0312C27.6876 2.76562 28.2031 3.28117 28.2031 3.9375Z" fill="#DEC7FF"></path>
+                                    <path d="M35.3582 17.0753C34.9279 17.0753 34.5147 16.8384 34.3087 16.4276L29.374 6.55821C29.0845 5.97915 29.3191 5.27532 29.8982 4.98579C30.4761 4.69743 31.1811 4.9297 31.4706 5.50993L36.4053 15.3793C36.6948 15.9584 36.4602 16.6622 35.8811 16.9517C35.7129 17.0352 35.5344 17.0753 35.3582 17.0753Z" fill="#5C27FE"></path>
+                                    <path d="M30.4207 31.1379C30.2445 31.1379 30.0659 31.0978 29.8977 31.0143C29.4869 30.8094 29.25 30.3951 29.25 29.966C29.25 29.7897 29.2901 29.6101 29.3736 29.4418L34.3083 19.5725C34.599 18.9934 35.3005 18.7611 35.8807 19.0483C36.2916 19.2532 36.5284 19.6675 36.5284 20.0966C36.5284 20.2729 36.4884 20.4526 36.4048 20.6208L31.4702 30.4901C31.2641 30.901 30.851 31.1379 30.4207 31.1379Z" fill="#5C27FE"></path>
+                                    <path d="M4.63989 17.0753C4.46364 17.0753 4.28513 17.0352 4.11693 16.9517C3.53786 16.6622 3.30325 15.9584 3.59278 15.3793L8.52747 5.50993C8.81817 4.9297 9.51966 4.69743 10.0999 4.98579C10.679 5.27532 10.9136 5.97915 10.624 6.55821L5.68935 16.4276C5.48333 16.8384 5.07021 17.0753 4.63989 17.0753Z" fill="#DEC7FF"></path>
+                                    <path d="M9.57692 31.1379C9.14661 31.1379 8.73349 30.901 8.52747 30.4901L3.59278 20.6208C3.30325 20.0417 3.53786 19.3379 4.11693 19.0483C4.69482 18.7611 5.39982 18.9934 5.68935 19.5725L10.624 29.4418C10.9136 30.0209 10.679 30.7247 10.0999 31.0143C9.93169 31.0978 9.75317 31.1379 9.57692 31.1379Z" fill="#DEC7FF"></path>
+                                    <path d="M34.3108 18.1237C34.1838 18.1237 34.0556 18.1031 33.9297 18.0597L26.4041 15.4687C25.7918 15.2582 25.4668 14.591 25.6774 13.9798C25.8879 13.3676 26.5563 13.0437 27.1663 13.2531L34.6919 15.844C35.3042 16.0546 35.6292 16.7218 35.4186 17.3329C35.2515 17.8194 34.7972 18.1237 34.3108 18.1237Z" fill="#5C27FE"></path>
+                                    <path d="M25.2567 12.2105C25.0164 12.2105 24.7726 12.1361 24.5632 11.9827C24.0425 11.5994 23.9303 10.8658 24.3137 10.3439L27.8637 5.51679C28.247 4.99608 28.9783 4.88507 29.5025 5.26733C30.0232 5.65069 30.1354 6.38429 29.7519 6.90616L26.202 11.7333C25.9719 12.0456 25.6172 12.2105 25.2567 12.2105Z" fill="#5C27FE"></path>
+                                    <path d="M23.7027 12.6561C23.4917 13.0078 23.1168 13.1953 22.7417 13.1953C22.5074 13.1953 22.2964 13.1249 22.0855 12.9843L17.6558 10.0311L11.9136 6.21083C11.3746 5.85935 11.234 5.13279 11.6089 4.59365C11.9604 4.05466 12.687 3.91404 13.2261 4.2656L17.6557 7.21857L23.3979 11.0389C23.937 11.3906 24.0776 12.1172 23.7027 12.6561Z" fill="#DEC7FF"></path>
+                                    <path d="M19.0616 21.9848C18.8167 21.9848 18.5707 21.9082 18.3601 21.7502C17.8417 21.3623 17.7364 20.6276 18.1255 20.1103L22.3438 14.4844C22.7328 13.9659 23.4676 13.863 23.9837 14.2498C24.5021 14.6377 24.6074 15.3724 24.2183 15.8897L20 21.5156C19.77 21.8234 19.4187 21.9848 19.0616 21.9848Z" fill="#5C27FE"></path>
+                                    <path d="M15.4355 23.1179C15.3131 23.1179 15.1884 23.0984 15.0648 23.0572L5.44945 19.8529C4.83601 19.6492 4.50414 18.9854 4.70898 18.3708C4.91265 17.7586 5.57187 17.4221 6.19101 17.6304L15.8063 20.8347C16.4198 21.0384 16.7516 21.7022 16.5468 22.3168C16.3831 22.8077 15.9265 23.1179 15.4355 23.1179Z" fill="#DEC7FF"></path>
+                                    <path d="M27.5422 31.7708C27.2859 31.7708 27.0272 31.6873 26.811 31.5145L18.7521 25.0669C18.2474 24.6617 18.165 23.9248 18.5689 23.4189C18.9752 22.9154 19.7111 22.8307 20.2169 23.2358L28.2758 29.6834C28.7805 30.0885 28.8629 30.8255 28.4589 31.3313C28.2265 31.6197 27.8867 31.7708 27.5422 31.7708Z" fill="#5C27FE"></path>
+                                    <path d="M12.0303 31.3598C11.7854 31.3598 11.5394 31.2832 11.3289 31.1252C10.8104 30.7373 10.7052 30.0026 11.0942 29.4853L15.3125 23.8594C15.7028 23.3409 16.4352 23.238 16.9525 23.6248C17.4709 24.0127 17.5761 24.7474 17.1871 25.2647L12.9688 30.8906C12.7388 31.1984 12.3875 31.3598 12.0303 31.3598Z" fill="#DEC7FF"></path>
+                                    <path d="M16.8312 21.6644C16.3574 21.6644 15.9099 21.3749 15.7337 20.9045L10.3481 6.54441C10.1215 5.93785 10.4281 5.26269 11.0335 5.03496C11.6377 4.80839 12.3152 5.11394 12.543 5.72042L17.9286 20.0805C18.1552 20.6871 17.8485 21.3622 17.2431 21.59C17.107 21.6404 16.9685 21.6644 16.8312 21.6644Z" fill="#DEC7FF"></path>
+                                    <path d="M19.9286 23.2907C19.4033 23.2907 18.9261 22.936 18.7934 22.4027C18.6355 21.7756 19.0177 21.1393 19.646 20.9825L33.8481 17.4325C34.4741 17.2735 35.1115 17.6557 35.2683 18.2851C35.4262 18.9122 35.044 19.5486 34.4158 19.7053L20.2136 23.2553C20.1186 23.2793 20.0225 23.2907 19.9286 23.2907Z" fill="#5C27FE"></path>
+                                    <path d="M27.0312 5.10938H17.6562V2.76562H27.0312C27.6876 2.76562 28.2031 3.28117 28.2031 3.9375C28.2031 4.59367 27.6876 5.10938 27.0312 5.10938Z" fill="#5C27FE"></path>
+                                    <path d="M23.7031 12.6562C23.4921 13.0079 23.1172 13.1954 22.7421 13.1954C22.5078 13.1954 22.2968 13.125 22.0859 12.9844L17.6562 10.0312V7.21875L23.3984 11.0391C23.9374 11.3907 24.078 12.1173 23.7031 12.6562Z" fill="#5C27FE"></path>
+                                    <path d="M17.6562 19.1719C15.7109 19.1719 14.1406 20.7421 14.1406 22.6875C14.1406 24.6327 15.7109 26.2031 17.6562 26.2031C19.6016 26.2031 21.1719 24.6327 21.1719 22.6875C21.1719 20.7421 19.6016 19.1719 17.6562 19.1719Z" fill="#00E3FF"></path>
+                                    <path d="M21.1719 22.6875C21.1719 24.6327 19.6016 26.2031 17.6562 26.2031V19.1719C19.6016 19.1719 21.1719 20.7421 21.1719 22.6875Z" fill="#00E3FF"></path>
+                                    <path d="M36.4062 21.5156C34.4677 21.5156 32.8906 19.9386 32.8906 18C32.8906 16.0614 34.4677 14.4844 36.4062 14.4844C38.3448 14.4844 40 16.0614 40 18C40 19.9386 38.3448 21.5156 36.4062 21.5156Z" fill="#00E3FF"></path>
+                                    <path d="M29.375 7.45312C27.4364 7.45312 25.8594 5.87609 25.8594 3.9375C25.8594 1.99891 27.4364 0.421875 29.375 0.421875C31.3136 0.421875 32.8906 1.99891 32.8906 3.9375C32.8906 5.87609 31.3136 7.45312 29.375 7.45312Z" fill="#00E3FF"></path>
+                                    <path d="M24.6875 16.8281C22.7489 16.8281 21.1719 15.2511 21.1719 13.3125C21.1719 11.3739 22.7489 9.79688 24.6875 9.79688C26.6261 9.79688 28.2031 11.3739 28.2031 13.3125C28.2031 15.2511 26.6261 16.8281 24.6875 16.8281Z" fill="#00E3FF"></path>
+                                    <path d="M29.375 35.5781C27.4364 35.5781 25.8594 34.0011 25.8594 32.0625C25.8594 30.1239 27.4364 28.5469 29.375 28.5469C31.3136 28.5469 32.8906 30.1239 32.8906 32.0625C32.8906 34.0011 31.3136 35.5781 29.375 35.5781Z" fill="#00E3FF"></path>
+                                    <path d="M3.59375 21.5156C1.65516 21.5156 0 19.9386 0 18C0 16.0614 1.65516 14.4844 3.59375 14.4844C5.53234 14.4844 7.10938 16.0614 7.10938 18C7.10938 19.9386 5.53234 21.5156 3.59375 21.5156Z" fill="#00E3FF"></path>
+                                    <path d="M10.625 7.45312C8.68641 7.45312 7.10938 5.87609 7.10938 3.9375C7.10938 1.99891 8.68641 0.421875 10.625 0.421875C12.5636 0.421875 14.1406 1.99891 14.1406 3.9375C14.1406 5.87609 12.5636 7.45312 10.625 7.45312Z" fill="#00E3FF"></path>
+                                    <path d="M10.625 35.5781C8.68641 35.5781 7.10938 34.0011 7.10938 32.0625C7.10938 30.1239 8.68641 28.5469 10.625 28.5469C12.5636 28.5469 14.1406 30.1239 14.1406 32.0625C14.1406 34.0011 12.5636 35.5781 10.625 35.5781Z" fill="#00E3FF"></path>
+                                    </svg>
+                                    
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Daily Missons and reward</h5>
+                                <p>Complete daily missions to earn exciting rewards. Challenge yourself with new tasks every day and reap the benefits of your efforts. Keep the game fresh and engaging with daily incentives!
+
+
+
+
+
+
+</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6">
+                    <div class="portfolio__right">
+                        <div class="image" data-aos="fade-left" data-aos-duration="2000">
+                            <img src="https://i.imgur.com/3N0F7Dj.png" alt="Flipped Image" style="transform: scaleX(-1);" class="angry-shake">
+                                <style>
+        @keyframes angry-shake {
+            0% { transform: scaleX(-1) translate(0, 0); }
+            10% { transform: scaleX(-1) translate(-10px, 0); }
+            20% { transform: scaleX(-1) translate(10px, 0); }
+            30% { transform: scaleX(-1) translate(-10px, 0); }
+            40% { transform: scaleX(-1) translate(10px, 0); }
+            50% { transform: scaleX(-1) translate(-10px, 0); }
+            60% { transform: scaleX(-1) translate(10px, 0); }
+            70% { transform: scaleX(-1) translate(-10px, 0); }
+            80% { transform: scaleX(-1) translate(10px, 0); }
+            90% { transform: scaleX(-1) translate(-10px, 0); }
+            100% { transform: scaleX(-1) translate(0, 0); }
+        }
+
+        .angry-shake {
+            animation: angry-shake 0.5s infinite;
+        }
+    </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="roadmap" style="display: none;">
+        <img src="assets/images/background/line.png" alt="" class="img-line">
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-text center">
+                        <h6 class="sub-heading"><span>Road Map</span></h6>
+                        <h3 class="heading wow" data-splitting="">The Journey of <br>
+                            Cyfonii NFT</h3>
+                    </div>
+
+                    <div class="roadmap__main" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="roadmap-box">
+                            <div class="time">February 01, 2022</div>
+                            <div class="content">
+                                <h5 class="title">Idea Generation</h5>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-box right">
+                            <div class="time">February 01, 2022</div>
+                            <div class="content">
+                                <h5 class="title">Design & Development</h5>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-box">
+                            <div class="time">February 01, 2022</div>
+                            <div class="content">
+                                <h5 class="title">Initial Release</h5>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-box right">
+                            <div class="time">February 01, 2022</div>
+                            <div class="content">
+                                <h5 class="title">Result & Final Report</h5>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-box">
+                            <div class="time">February 01, 2022</div>
+                            <div class="content">
+                                <h5 class="title">Design & Development</h5>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+                            </div>
+                        </div>
+                        <div class="icon"></div>
+                        <div class="icon bottom"></div>
+
+                        
+                    </div>
+                    <div class="button">
+                        <a href="roadmap.html" class="action-btn"><span>View Full Road Map</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="team" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-text center">
+                        <h6 class="sub-heading"><span>Team Members</span></h6>
+                        <h3 class="heading wow" data-splitting="">Our Amazing Team
+                            <br>
+                            Members</h3>
+                    </div>
+
+                    <div class="swiper team-swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="image">
+                                    <a href="team.html">
+                                        <img src="assets/images/layouts/team-01.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="team.html" class="h5 name">Jane Cooper</a>
+                                    <p class="postion">
+                                        Founder & CEO
+                                    </p>
+
+                                    <ul class="list-social">
+                                        <li><a href="#">
+                                            <svg width="9" height="16" viewbox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.57969 9.03953C2.51969 9.03953 1.19969 9.03953 0.599688 9.03953C0.279688 9.03953 0.179688 8.91953 0.179688 8.61953C0.179688 7.81953 0.179688 6.99953 0.179688 6.19953C0.179688 5.87953 0.299688 5.77953 0.599688 5.77953H2.57969C2.57969 5.71953 2.57969 4.55953 2.57969 4.01953C2.57969 3.21953 2.71969 2.45953 3.11969 1.75953C3.53969 1.03953 4.13969 0.559531 4.89969 0.279531C5.39969 0.0995311 5.89969 0.0195312 6.43969 0.0195312H8.39969C8.67969 0.0195312 8.79969 0.139531 8.79969 0.419531V2.69953C8.79969 2.97953 8.67969 3.09953 8.39969 3.09953C7.85969 3.09953 7.31969 3.09953 6.77969 3.11953C6.23969 3.11953 5.95969 3.37953 5.95969 3.93953C5.93969 4.53953 5.95969 5.11953 5.95969 5.73953H8.27969C8.59969 5.73953 8.71969 5.85953 8.71969 6.17953V8.59953C8.71969 8.91953 8.61969 9.01953 8.27969 9.01953C7.55969 9.01953 6.01969 9.01953 5.95969 9.01953V15.5395C5.95969 15.8795 5.85969 15.9995 5.49969 15.9995C4.65969 15.9995 3.83969 15.9995 2.99969 15.9995C2.69969 15.9995 2.57969 15.8795 2.57969 15.5795C2.57969 13.4795 2.57969 9.09953 2.57969 9.03953Z" fill="white"></path>
+                                            </svg>    
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="15" height="12" viewbox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.5 1.42062C13.9794 1.66154 13.4246 1.82123 12.8462 1.89877C13.4412 1.524 13.8954 0.935077 14.1089 0.225231C13.5541 0.574154 12.9416 0.820615 12.2889 0.958154C11.7621 0.366462 11.0114 0 10.1924 0C8.60337 0 7.32412 1.36062 7.32412 3.02862C7.32412 3.26862 7.34338 3.49938 7.39062 3.71908C5.0045 3.59631 2.89313 2.38985 1.47475 0.552C1.22712 1.00523 1.08188 1.524 1.08188 2.08246C1.08188 3.13108 1.59375 4.06062 2.35675 4.59877C1.89562 4.58954 1.44325 4.44831 1.06 4.22585C1.06 4.23508 1.06 4.24708 1.06 4.25908C1.06 5.73046 2.05487 6.95262 3.3595 7.23415C3.12587 7.30154 2.87125 7.33385 2.607 7.33385C2.42325 7.33385 2.23775 7.32277 2.06362 7.28215C2.4355 8.48123 3.49075 9.36277 4.7455 9.39138C3.769 10.1972 2.52912 10.6828 1.18688 10.6828C0.9515 10.6828 0.72575 10.6717 0.5 10.6412C1.77137 11.5062 3.27813 12 4.903 12C10.1845 12 13.072 7.38462 13.072 3.384C13.072 3.25015 13.0676 3.12092 13.0615 2.99262C13.6311 2.56615 14.1097 2.03354 14.5 1.42062Z" fill="white"></path>
+                                            </svg> 
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="17" height="14" viewbox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.77846 9.12109L6.51378 12.844C6.89246 12.844 7.05647 12.6813 7.25315 12.4859L9.02858 10.7892L12.7074 13.4833C13.3821 13.8593 13.8575 13.6613 14.0395 12.8626L16.4543 1.54734L16.455 1.54668C16.669 0.54929 16.0943 0.159269 15.4369 0.403949L1.24283 5.83824C0.274106 6.21426 0.288774 6.75429 1.07815 6.99897L4.70701 8.1277L13.1361 2.85341C13.5328 2.59073 13.8935 2.73607 13.5968 2.99876L6.77846 9.12109Z" fill="white"></path>
+                                            </svg>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="image">
+                                    <a href="team.html">
+                                        <img src="assets/images/layouts/team-02.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="team.html" class="h5 name">Jenny Wilson</a>
+                                    <p class="postion">
+                                        Designer
+                                    </p>
+
+                                    <ul class="list-social">
+                                        <li><a href="#">
+                                            <svg width="9" height="16" viewbox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.57969 9.03953C2.51969 9.03953 1.19969 9.03953 0.599688 9.03953C0.279688 9.03953 0.179688 8.91953 0.179688 8.61953C0.179688 7.81953 0.179688 6.99953 0.179688 6.19953C0.179688 5.87953 0.299688 5.77953 0.599688 5.77953H2.57969C2.57969 5.71953 2.57969 4.55953 2.57969 4.01953C2.57969 3.21953 2.71969 2.45953 3.11969 1.75953C3.53969 1.03953 4.13969 0.559531 4.89969 0.279531C5.39969 0.0995311 5.89969 0.0195312 6.43969 0.0195312H8.39969C8.67969 0.0195312 8.79969 0.139531 8.79969 0.419531V2.69953C8.79969 2.97953 8.67969 3.09953 8.39969 3.09953C7.85969 3.09953 7.31969 3.09953 6.77969 3.11953C6.23969 3.11953 5.95969 3.37953 5.95969 3.93953C5.93969 4.53953 5.95969 5.11953 5.95969 5.73953H8.27969C8.59969 5.73953 8.71969 5.85953 8.71969 6.17953V8.59953C8.71969 8.91953 8.61969 9.01953 8.27969 9.01953C7.55969 9.01953 6.01969 9.01953 5.95969 9.01953V15.5395C5.95969 15.8795 5.85969 15.9995 5.49969 15.9995C4.65969 15.9995 3.83969 15.9995 2.99969 15.9995C2.69969 15.9995 2.57969 15.8795 2.57969 15.5795C2.57969 13.4795 2.57969 9.09953 2.57969 9.03953Z" fill="white"></path>
+                                            </svg>    
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="15" height="12" viewbox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.5 1.42062C13.9794 1.66154 13.4246 1.82123 12.8462 1.89877C13.4412 1.524 13.8954 0.935077 14.1089 0.225231C13.5541 0.574154 12.9416 0.820615 12.2889 0.958154C11.7621 0.366462 11.0114 0 10.1924 0C8.60337 0 7.32412 1.36062 7.32412 3.02862C7.32412 3.26862 7.34338 3.49938 7.39062 3.71908C5.0045 3.59631 2.89313 2.38985 1.47475 0.552C1.22712 1.00523 1.08188 1.524 1.08188 2.08246C1.08188 3.13108 1.59375 4.06062 2.35675 4.59877C1.89562 4.58954 1.44325 4.44831 1.06 4.22585C1.06 4.23508 1.06 4.24708 1.06 4.25908C1.06 5.73046 2.05487 6.95262 3.3595 7.23415C3.12587 7.30154 2.87125 7.33385 2.607 7.33385C2.42325 7.33385 2.23775 7.32277 2.06362 7.28215C2.4355 8.48123 3.49075 9.36277 4.7455 9.39138C3.769 10.1972 2.52912 10.6828 1.18688 10.6828C0.9515 10.6828 0.72575 10.6717 0.5 10.6412C1.77137 11.5062 3.27813 12 4.903 12C10.1845 12 13.072 7.38462 13.072 3.384C13.072 3.25015 13.0676 3.12092 13.0615 2.99262C13.6311 2.56615 14.1097 2.03354 14.5 1.42062Z" fill="white"></path>
+                                            </svg> 
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="17" height="14" viewbox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.77846 9.12109L6.51378 12.844C6.89246 12.844 7.05647 12.6813 7.25315 12.4859L9.02858 10.7892L12.7074 13.4833C13.3821 13.8593 13.8575 13.6613 14.0395 12.8626L16.4543 1.54734L16.455 1.54668C16.669 0.54929 16.0943 0.159269 15.4369 0.403949L1.24283 5.83824C0.274106 6.21426 0.288774 6.75429 1.07815 6.99897L4.70701 8.1277L13.1361 2.85341C13.5328 2.59073 13.8935 2.73607 13.5968 2.99876L6.77846 9.12109Z" fill="white"></path>
+                                            </svg>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="image">
+                                    <a href="team.html">
+                                        <img src="assets/images/layouts/team-03.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="team.html" class="h5 name">Ralph Edwards</a>
+                                    <p class="postion">
+                                        Developer
+                                    </p>
+
+                                    <ul class="list-social">
+                                        <li><a href="#">
+                                            <svg width="9" height="16" viewbox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.57969 9.03953C2.51969 9.03953 1.19969 9.03953 0.599688 9.03953C0.279688 9.03953 0.179688 8.91953 0.179688 8.61953C0.179688 7.81953 0.179688 6.99953 0.179688 6.19953C0.179688 5.87953 0.299688 5.77953 0.599688 5.77953H2.57969C2.57969 5.71953 2.57969 4.55953 2.57969 4.01953C2.57969 3.21953 2.71969 2.45953 3.11969 1.75953C3.53969 1.03953 4.13969 0.559531 4.89969 0.279531C5.39969 0.0995311 5.89969 0.0195312 6.43969 0.0195312H8.39969C8.67969 0.0195312 8.79969 0.139531 8.79969 0.419531V2.69953C8.79969 2.97953 8.67969 3.09953 8.39969 3.09953C7.85969 3.09953 7.31969 3.09953 6.77969 3.11953C6.23969 3.11953 5.95969 3.37953 5.95969 3.93953C5.93969 4.53953 5.95969 5.11953 5.95969 5.73953H8.27969C8.59969 5.73953 8.71969 5.85953 8.71969 6.17953V8.59953C8.71969 8.91953 8.61969 9.01953 8.27969 9.01953C7.55969 9.01953 6.01969 9.01953 5.95969 9.01953V15.5395C5.95969 15.8795 5.85969 15.9995 5.49969 15.9995C4.65969 15.9995 3.83969 15.9995 2.99969 15.9995C2.69969 15.9995 2.57969 15.8795 2.57969 15.5795C2.57969 13.4795 2.57969 9.09953 2.57969 9.03953Z" fill="white"></path>
+                                            </svg>    
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="15" height="12" viewbox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.5 1.42062C13.9794 1.66154 13.4246 1.82123 12.8462 1.89877C13.4412 1.524 13.8954 0.935077 14.1089 0.225231C13.5541 0.574154 12.9416 0.820615 12.2889 0.958154C11.7621 0.366462 11.0114 0 10.1924 0C8.60337 0 7.32412 1.36062 7.32412 3.02862C7.32412 3.26862 7.34338 3.49938 7.39062 3.71908C5.0045 3.59631 2.89313 2.38985 1.47475 0.552C1.22712 1.00523 1.08188 1.524 1.08188 2.08246C1.08188 3.13108 1.59375 4.06062 2.35675 4.59877C1.89562 4.58954 1.44325 4.44831 1.06 4.22585C1.06 4.23508 1.06 4.24708 1.06 4.25908C1.06 5.73046 2.05487 6.95262 3.3595 7.23415C3.12587 7.30154 2.87125 7.33385 2.607 7.33385C2.42325 7.33385 2.23775 7.32277 2.06362 7.28215C2.4355 8.48123 3.49075 9.36277 4.7455 9.39138C3.769 10.1972 2.52912 10.6828 1.18688 10.6828C0.9515 10.6828 0.72575 10.6717 0.5 10.6412C1.77137 11.5062 3.27813 12 4.903 12C10.1845 12 13.072 7.38462 13.072 3.384C13.072 3.25015 13.0676 3.12092 13.0615 2.99262C13.6311 2.56615 14.1097 2.03354 14.5 1.42062Z" fill="white"></path>
+                                            </svg> 
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="17" height="14" viewbox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.77846 9.12109L6.51378 12.844C6.89246 12.844 7.05647 12.6813 7.25315 12.4859L9.02858 10.7892L12.7074 13.4833C13.3821 13.8593 13.8575 13.6613 14.0395 12.8626L16.4543 1.54734L16.455 1.54668C16.669 0.54929 16.0943 0.159269 15.4369 0.403949L1.24283 5.83824C0.274106 6.21426 0.288774 6.75429 1.07815 6.99897L4.70701 8.1277L13.1361 2.85341C13.5328 2.59073 13.8935 2.73607 13.5968 2.99876L6.77846 9.12109Z" fill="white"></path>
+                                            </svg>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="team-box">
+                                <div class="image">
+                                    <a href="team.html">
+                                        <img src="assets/images/layouts/team-04.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="team.html" class="h5 name">Cody Fisher</a>
+                                    <p class="postion">
+                                        3D Artist
+                                    </p>
+
+                                    <ul class="list-social">
+                                        <li><a href="#">
+                                            <svg width="9" height="16" viewbox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.57969 9.03953C2.51969 9.03953 1.19969 9.03953 0.599688 9.03953C0.279688 9.03953 0.179688 8.91953 0.179688 8.61953C0.179688 7.81953 0.179688 6.99953 0.179688 6.19953C0.179688 5.87953 0.299688 5.77953 0.599688 5.77953H2.57969C2.57969 5.71953 2.57969 4.55953 2.57969 4.01953C2.57969 3.21953 2.71969 2.45953 3.11969 1.75953C3.53969 1.03953 4.13969 0.559531 4.89969 0.279531C5.39969 0.0995311 5.89969 0.0195312 6.43969 0.0195312H8.39969C8.67969 0.0195312 8.79969 0.139531 8.79969 0.419531V2.69953C8.79969 2.97953 8.67969 3.09953 8.39969 3.09953C7.85969 3.09953 7.31969 3.09953 6.77969 3.11953C6.23969 3.11953 5.95969 3.37953 5.95969 3.93953C5.93969 4.53953 5.95969 5.11953 5.95969 5.73953H8.27969C8.59969 5.73953 8.71969 5.85953 8.71969 6.17953V8.59953C8.71969 8.91953 8.61969 9.01953 8.27969 9.01953C7.55969 9.01953 6.01969 9.01953 5.95969 9.01953V15.5395C5.95969 15.8795 5.85969 15.9995 5.49969 15.9995C4.65969 15.9995 3.83969 15.9995 2.99969 15.9995C2.69969 15.9995 2.57969 15.8795 2.57969 15.5795C2.57969 13.4795 2.57969 9.09953 2.57969 9.03953Z" fill="white"></path>
+                                            </svg>    
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="15" height="12" viewbox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.5 1.42062C13.9794 1.66154 13.4246 1.82123 12.8462 1.89877C13.4412 1.524 13.8954 0.935077 14.1089 0.225231C13.5541 0.574154 12.9416 0.820615 12.2889 0.958154C11.7621 0.366462 11.0114 0 10.1924 0C8.60337 0 7.32412 1.36062 7.32412 3.02862C7.32412 3.26862 7.34338 3.49938 7.39062 3.71908C5.0045 3.59631 2.89313 2.38985 1.47475 0.552C1.22712 1.00523 1.08188 1.524 1.08188 2.08246C1.08188 3.13108 1.59375 4.06062 2.35675 4.59877C1.89562 4.58954 1.44325 4.44831 1.06 4.22585C1.06 4.23508 1.06 4.24708 1.06 4.25908C1.06 5.73046 2.05487 6.95262 3.3595 7.23415C3.12587 7.30154 2.87125 7.33385 2.607 7.33385C2.42325 7.33385 2.23775 7.32277 2.06362 7.28215C2.4355 8.48123 3.49075 9.36277 4.7455 9.39138C3.769 10.1972 2.52912 10.6828 1.18688 10.6828C0.9515 10.6828 0.72575 10.6717 0.5 10.6412C1.77137 11.5062 3.27813 12 4.903 12C10.1845 12 13.072 7.38462 13.072 3.384C13.072 3.25015 13.0676 3.12092 13.0615 2.99262C13.6311 2.56615 14.1097 2.03354 14.5 1.42062Z" fill="white"></path>
+                                            </svg> 
+                                        </a></li>
+                                        <li><a href="#">
+                                            <svg width="17" height="14" viewbox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.77846 9.12109L6.51378 12.844C6.89246 12.844 7.05647 12.6813 7.25315 12.4859L9.02858 10.7892L12.7074 13.4833C13.3821 13.8593 13.8575 13.6613 14.0395 12.8626L16.4543 1.54734L16.455 1.54668C16.669 0.54929 16.0943 0.159269 15.4369 0.403949L1.24283 5.83824C0.274106 6.21426 0.288774 6.75429 1.07815 6.99897L4.70701 8.1277L13.1361 2.85341C13.5328 2.59073 13.8935 2.73607 13.5968 2.99876L6.77846 9.12109Z" fill="white"></path>
+                                            </svg>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg width="10" height="15" viewbox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.8788 7.46543L2.43654 13.8092C2.1795 14.0662 1.76387 14.0662 1.50683 13.8092L1.11856 13.4209C0.861521 13.1639 0.861521 12.7482 1.11856 12.4912L6.7131 7.00059L1.12402 1.50997C0.866998 1.25293 0.866998 0.837303 1.12402 0.580281L1.51231 0.191991C1.76933 -0.0650311 2.18496 -0.0650311 2.442 0.191991L8.88422 6.53574C9.1357 6.79278 9.1357 7.20841 8.8788 7.46543Z" fill="white" fill-opacity="0.5"></path>
+                            </svg>                                
+                        </div>
+                        <div class="swiper-button-prev">
+                            <svg width="10" height="15" viewbox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.1212 7.46543L7.56346 13.8092C7.8205 14.0662 8.23613 14.0662 8.49317 13.8092L8.88144 13.4209C9.13848 13.1639 9.13848 12.7482 8.88144 12.4912L3.2869 7.00059L8.87598 1.50997C9.133 1.25293 9.133 0.837303 8.87598 0.580281L8.48769 0.191991C8.23067 -0.0650311 7.81504 -0.0650311 7.558 0.191991L1.11578 6.53574C0.864303 6.79278 0.864302 7.20841 1.1212 7.46543Z" fill="white"></path>
+                            </svg>
+                        </div>
+                      </div>
+
+                      <div style="display: none;" class="brands block-text center" data-aos="fade-up" data-aos-duration="2000">
+                        <h6 class="sub-heading"><span>We Are Partnered with Top Brands</span></h6>
+
+                        <div class="swiper brands-swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/logo/brand-01.png" alt=""></a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/logo/brand-02.png" alt=""></a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/logo/brand-03.png" alt=""></a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/logo/brand-04.png" alt=""></a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/logo/brand-05.png" alt=""></a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/logo/brand-06.png" alt=""></a>
+                              </div>
+                              
+    
+                            </div>
+                          </div>
+                      </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" style="display:none;">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="testimonials__main">
+                        <div class="block-text center">
+                            <h6 class="sub-heading"><span>Testimonials</span></h6>
+                            <h3 class="heading wow" data-splitting="">What People Say
+                                </h3>
+                        </div>
+
+                        <div class="swiper testimonials-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="box-testimonial center">
+                                        <img src="assets/images/icon/quote.png" alt="">
+                                        <p class="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                                        <div class="info">
+                                            <img src="assets/images/layouts/avt-02.png" alt="">
+                                            <h5 class="name">Jacob Jones</h5>
+                                            <p>Chief Product Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-testimonial center">
+                                        <img src="assets/images/icon/quote.png" alt="">
+                                        <p class="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                                        <div class="info">
+                                            <img src="assets/images/layouts/avt-03.png" alt="">
+                                            <h5 class="name">Jacob Jones</h5>
+                                            <p>Chief Product Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-testimonial center">
+                                        <img src="assets/images/icon/quote.png" alt="">
+                                        <p class="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                                        <div class="info">
+                                            <img src="assets/images/layouts/avt-04.png" alt="">
+                                            <h5 class="name">Jacob Jones</h5>
+                                            <p>Chief Product Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" style="display: none;">
+        <div class="shape right"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-text center" data-aos="fade-down" data-aos-duration="3000">
+                        <h6 class="sub-heading"><span>FAQs</span></h6>
+                        <h3 class="heading">Frequently
+                            <br>
+                            Aksed Questions</h3>
+                            <p class="mb-17">Below is a list of frequently asked questions and answers from partners and 3D artist</p>
+                            <p>Please check this FAQ first before contacting us.</p> 
+                    </div>
+
+                    <div class="faq__main flat-tabs">
+                        <ul class="menu-tab">
+                            <li><h6 class="fs-14">Cryptocurrency</h6></li>
+                            <li class="active"> <h6 class="fs-14">NFT Token</h6></li>
+                            <li><h6 class="fs-14">Collection</h6></li>
+                            <li><h6 class="fs-14">Crypto Trading</h6></li>
+                        </ul>
+                        <div class="content-tab">
+                            <div class="content-inner">
+                                <div class="flat-accordion row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+    
+                                  </div>
+                            </div>
+                            <div class="content-inner">
+                                <div class="flat-accordion row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+    
+                                  </div>
+                            </div>
+                            <div class="content-inner">
+                                <div class="flat-accordion row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+    
+                                  </div>
+                            </div>
+                            <div class="content-inner">
+                                <div class="flat-accordion row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <div class="toggle-content">
+                                              <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Tellus aliquam parturient erat id vel, condimentum a,
+                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
+                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
+                                                ultrices venenatis.
+                                              </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+    
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="create">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="create__main">
+
+                        <div class="content" >
+
+                            <h4 class="heading">Get Snake game now!</h4>
+                            <p>We are avalable on Android and IOS.</p>
+
+                            
+                        
+                        </div>
+                        <img style="width:22.2%" src="https://i.imgur.com/mXO4kHs.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+                                <div style="display: flex; align-items: center; margin-top: -150px; z-index: 9999 !important;">
+        <img src="https://farlight84.farlightgames.com/download/img/pc/app_store_en.png" alt="App Store" style="margin-right: 10px; max-width: 100%; height: auto;">
+        <img src="https://farlight84.farlightgames.com/download/img/pc/google_en.png" alt="Google Play" style="max-width: 100%; height: auto;">
+    </div>
+        <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
+    </section>
+
+    <footer class="footer">
+        
+        <div class="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer__main">
+                        <div class="block-text center">
+
+                            <h3 class="heading">Get Newsletter</h3>
+                            <p>Get udpated with news, tips & tricks</p>
+
+                                
+                        </div>
+                        <form action="#" class="form">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your email">
+                                
+                            </div>
+                            <button class="action-btn"><span>Subscribe</span></button>
+                        </form>
+                    </div>
+
+                    <div class="footer__bottom">
+                        <a href="index.html" class="logo"><img style="width: 200px;" src="assets/images/logo/logo.png" alt=""></a>
+
+                        <div class="center mb--30">
+                            <ul class="list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">Policy</a></li>
+                            </ul>
+                            <p>Copyright © 2024, Mxmx</p>
+                        </div>
+                        <ul class="list-social">
+                            <li><a href="#">
+                                <svg width="9" height="16" viewbox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.57969 9.03953C2.51969 9.03953 1.19969 9.03953 0.599688 9.03953C0.279688 9.03953 0.179688 8.91953 0.179688 8.61953C0.179688 7.81953 0.179688 6.99953 0.179688 6.19953C0.179688 5.87953 0.299688 5.77953 0.599688 5.77953H2.57969C2.57969 5.71953 2.57969 4.55953 2.57969 4.01953C2.57969 3.21953 2.71969 2.45953 3.11969 1.75953C3.53969 1.03953 4.13969 0.559531 4.89969 0.279531C5.39969 0.0995311 5.89969 0.0195312 6.43969 0.0195312H8.39969C8.67969 0.0195312 8.79969 0.139531 8.79969 0.419531V2.69953C8.79969 2.97953 8.67969 3.09953 8.39969 3.09953C7.85969 3.09953 7.31969 3.09953 6.77969 3.11953C6.23969 3.11953 5.95969 3.37953 5.95969 3.93953C5.93969 4.53953 5.95969 5.11953 5.95969 5.73953H8.27969C8.59969 5.73953 8.71969 5.85953 8.71969 6.17953V8.59953C8.71969 8.91953 8.61969 9.01953 8.27969 9.01953C7.55969 9.01953 6.01969 9.01953 5.95969 9.01953V15.5395C5.95969 15.8795 5.85969 15.9995 5.49969 15.9995C4.65969 15.9995 3.83969 15.9995 2.99969 15.9995C2.69969 15.9995 2.57969 15.8795 2.57969 15.5795C2.57969 13.4795 2.57969 9.09953 2.57969 9.03953Z" fill="white"></path>
+                                </svg>    
+                            </a></li>
+                            <li><a href="#">
+                                <svg width="15" height="12" viewbox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.5 1.42062C13.9794 1.66154 13.4246 1.82123 12.8462 1.89877C13.4412 1.524 13.8954 0.935077 14.1089 0.225231C13.5541 0.574154 12.9416 0.820615 12.2889 0.958154C11.7621 0.366462 11.0114 0 10.1924 0C8.60337 0 7.32412 1.36062 7.32412 3.02862C7.32412 3.26862 7.34338 3.49938 7.39062 3.71908C5.0045 3.59631 2.89313 2.38985 1.47475 0.552C1.22712 1.00523 1.08188 1.524 1.08188 2.08246C1.08188 3.13108 1.59375 4.06062 2.35675 4.59877C1.89562 4.58954 1.44325 4.44831 1.06 4.22585C1.06 4.23508 1.06 4.24708 1.06 4.25908C1.06 5.73046 2.05487 6.95262 3.3595 7.23415C3.12587 7.30154 2.87125 7.33385 2.607 7.33385C2.42325 7.33385 2.23775 7.32277 2.06362 7.28215C2.4355 8.48123 3.49075 9.36277 4.7455 9.39138C3.769 10.1972 2.52912 10.6828 1.18688 10.6828C0.9515 10.6828 0.72575 10.6717 0.5 10.6412C1.77137 11.5062 3.27813 12 4.903 12C10.1845 12 13.072 7.38462 13.072 3.384C13.072 3.25015 13.0676 3.12092 13.0615 2.99262C13.6311 2.56615 14.1097 2.03354 14.5 1.42062Z" fill="white"></path>
+                                </svg> 
+                            </a></li>
+                            <li><a href="#">
+                                <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.0006 14V8.87249C14.0006 6.35249 13.4581 4.42749 10.5181 4.42749C9.10062 4.42749 8.15563 5.19749 7.77063 5.93249H7.73563V4.65499H4.95312V14H7.85813V9.36249C7.85813 8.13749 8.08563 6.96499 9.59063 6.96499C11.0781 6.96499 11.0956 8.34749 11.0956 9.43249V13.9825H14.0006V14Z" fill="white"></path>
+                                    <path d="M0.226562 4.65479H3.13156V13.9998H0.226562V4.65479Z" fill="white"></path>
+                                    <path d="M1.68 0C0.7525 0 0 0.7525 0 1.68C0 2.6075 0.7525 3.3775 1.68 3.3775C2.6075 3.3775 3.36 2.6075 3.36 1.68C3.36 0.7525 2.6075 0 1.68 0Z" fill="white"></path>
+                                    </svg>
+                                    
+                            </a></li>
+                            <li><a href="#">
+                                <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.2347 1.9639C17.1458 1.22216 16.4468 0.510897 15.7154 0.415609C11.2555 -0.138536 6.7457 -0.138536 2.28731 0.415609C1.55533 0.51069 0.856308 1.22216 0.76739 1.9639C0.452537 4.68236 0.452537 7.31818 0.76739 10.036C0.856308 10.7778 1.55533 11.4897 2.28731 11.5843C6.7457 12.1384 11.2557 12.1384 15.7154 11.5843C16.4468 11.4898 17.1458 10.7778 17.2347 10.036C17.5496 7.31842 17.5496 4.68236 17.2347 1.9639ZM7.58931 8.82375V3.17703L11.8243 6.00049L7.58931 8.82375Z" fill="white"></path>
+                                </svg>    
+                            </a></li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <a id="scroll-top"><span class="icon-arrow-top"></span></a>
+    
+    </div>
+    
+    
+
+
+
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="app/js/jquery-migrate.min.js"></script>
+    <script src="app/js/plugins.js"></script>
+    <script src="app/js/countto.js"></script>
+    <script src="app/js/wow.min.js"></script>
+
+    <script src="app/js/app.js"></script>
+    <script src="app/js/count-down.js"></script>
+
+    <script src="app/js/aos.js"></script>
+
+
+      <script src="app/js/swiper-bundle.min.js"></script>
+      <script src="app/js/swiper.js"></script>
+      <script>
+          function clickEffect() {
+  let balls = [];
+  let longPressed = true;
+  let longPress;
+  let multiplier = 0;
+  let width, height;
+  let origin;
+  let normal;
+  let ctx;
+  const colours = ["#F73859", "#14FFEC", "#00E0FF", "#FF99FE", "#FAF15D"];
+  const canvas = document.createElement("canvas");
+  document.body.appendChild(canvas);
+  canvas.setAttribute("style", "width: 100%; height: 100%; top: 0; left: 0; z-index: 99999; position: fixed; pointer-events: none;");
+  const pointer = document.createElement("span");
+  pointer.classList.add("pointer");
+  document.body.appendChild(pointer);
+
+  if (canvas.getContext && window.addEventListener) {
+    ctx = canvas.getContext("2d");
+    updateSize();
+    window.addEventListener('resize', updateSize, false);
+    loop();
+    window.addEventListener("mousedown", function(e) {
+      pushBalls(randBetween(10, 20), e.clientX, e.clientY);
+      document.body.classList.add("is-pressed");
+      longPress = setTimeout(function(){
+        document.body.classList.add("is-longpress");
+        longPressed = true;
+      }, 500);
+    }, false);
+    window.addEventListener("mouseup", function(e) {
+      clearInterval(longPress);
+      if (longPressed == true) {
+        document.body.classList.remove("is-longpress");
+        pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
+        longPressed = false;
+      }
+      document.body.classList.remove("is-pressed");
+    }, false);
+    window.addEventListener("mousemove", function(e) {
+      let x = e.clientX;
+      let y = e.clientY;
+      pointer.style.top = y + "px";
+      pointer.style.left = x + "px";
+    }, false);
+  } else {
+    console.log("canvas or addEventListener is unsupported!");
+  }
+
+  function updateSize() {
+    canvas.width = window.innerWidth * 2;
+    canvas.height = window.innerHeight * 2;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    ctx.scale(2, 2);
+    width = (canvas.width = window.innerWidth);
+    height = (canvas.height = window.innerHeight);
+    origin = {
+      x: width / 2,
+      y: height / 2
+    };
+    normal = {
+      x: width / 2,
+      y: height / 2
+    };
+  }
+  class Ball {
+    constructor(x = origin.x, y = origin.y) {
+      this.x = x;
+      this.y = y;
+      this.angle = Math.PI * 2 * Math.random();
+      if (longPressed == true) {
+        this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
+      } else {
+        this.multiplier = randBetween(6, 12);
+      }
+      this.vx = (this.multiplier + Math.random() * 0.5) * Math.cos(this.angle);
+      this.vy = (this.multiplier + Math.random() * 0.5) * Math.sin(this.angle);
+      this.r = randBetween(2, 4) + 1 * Math.random(); // Smaller size
+      this.color = colours[Math.floor(Math.random() * colours.length)];
+    }
+    update() {
+      this.x += this.vx - normal.x;
+      this.y += this.vy - normal.y;
+      normal.x = -2 / window.innerWidth * Math.sin(this.angle);
+      normal.y = -2 / window.innerHeight * Math.cos(this.angle);
+      this.r -= 0.3;
+      this.vx *= 0.9;
+      this.vy *= 0.9;
+    }
+  }
+
+  function pushBalls(count = 1, x = origin.x, y = origin.y) {
+    for (let i = 0; i < count; i++) {
+      balls.push(new Ball(x, y));
+    }
+  }
+
+  function randBetween(min, max) {
+    return Math.floor(Math.random() * max) + min;
+  }
+
+  function loop() {
+    ctx.fillStyle = "rgba(255, 255, 255, 0)";
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.r < 0) continue;
+      ctx.fillStyle = b.color;
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2, false);
+      ctx.fill();
+      b.update();
+    }
+    if (longPressed == true) {
+      multiplier += 0.2;
+    } else if (!longPressed && multiplier >= 0) {
+      multiplier -= 0.4;
+    }
+    removeBall();
+    requestAnimationFrame(loop);
+  }
+
+  function removeBall() {
+    for (let i = 0; i < balls.length; i++) {
+      let b = balls[i];
+      if (b.x + b.r < 0 || b.x - b.r > width || b.y + b.r < 0 || b.y - b.r > height || b.r < 0) {
+        balls.splice(i, 1);
+      }
+    }
+  }
+}
+clickEffect();
+
+      </script>
+
+    <!-- Initialize Swiper -->
+
+
+</body>
+</html>
