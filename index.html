@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyfonii - NFT Portfolio and Landing Page HTML Template</title>
+    <title>Policy</title>
 
     <!-- Styles -->
 
@@ -16,11 +16,10 @@
     <!-- end Styles -->
 
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/favicon.png">
+    <link rel="shortcut icon" href="assets/images/logo/logo.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/logo.png">
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap">
-    <script>
-        // Ensure this script is correctly placed and executed
+     <script>
         if (window.location.pathname.endsWith('.html')) {
             const newUrl = window.location.pathname.slice(0, -5) + window.location.search;
             window.location.replace(newUrl);
@@ -36,6 +35,26 @@
             <span></span>
             </div>
         </div>
+<img src="https://raw.githubusercontent.com/F-andD/snak/main/logo.svg" 
+     alt="Sliding Image" 
+     style="
+       position: absolute; 
+       bottom: -100px; /* Start position outside the bottom of the screen */
+       left: 50%; 
+       transform: translateX(-50%); 
+       animation: slideUp 5s linear forwards;
+     ">
+
+<style>
+  @keyframes slideUp {
+    from {
+      bottom: -100px; /* Start position outside the bottom of the screen */
+    }
+    to {
+      bottom: 100px; /* End position (adjust as needed) */
+    }
+  }
+</style>
 
     <!-- Header -->
     <header id="header_main" class="header">
@@ -45,7 +64,7 @@
                     <div class="header__body">
                         <div class="header__logo">
                             <a href="index.html">
-                                <img id="site-logo" src="assets/images/logo/logo.png" alt="Peson" width="160" height="38" data-retina="assets/images/logo/logo@2x.png" data-width="160" data-height="38">
+                                <img style="height: 60px;" id="site-logo" src="assets/images/logo/logo.png" alt="Peson" width="90" height="10" data-retina="assets/images/logo/logo@2x.png" data-width="160" data-height="38">
                             </a>
                         </div>
 
@@ -88,7 +107,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="about.html">About</a>
+                                        <a href="policy.html">About</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="roadmap.html">RoadMap</a>
@@ -97,7 +116,7 @@
                                         <a href="team.html">Team</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="policy.html">Policys   </a>
+                                        <a href="contact.html">Contact</a>
                                     </li>                                     
                                 </ul>
                             </nav>
@@ -219,7 +238,7 @@
     <!-- End Banner -->
 
     <!-- About -->
-    <section class="about">
+    <section class="about" style="display: none;">
         <div class="shape"></div>
         <div class="container">
             <div class="row rev">
@@ -240,7 +259,7 @@
                         <h3 class="heading wow" data-splitting="">High-quality game physics with voice chat.</h3>
                             <p class="mb-17">Enjoy a next-level Snake game with realistic physics and integrated voice chat for seamless multiplayer fun!</p>
                             <p class="mb-26">Experience a top-tier Snake game built in Unreal Engine 5 with stunning visuals and realistic physics. Enjoy smooth gameplay and immersive environments while chatting with friends in real-time. This game combines classic fun with modern technology for an engaging multiplayer experience.</p>
-                            <a href="about.html" class="action-btn"><span>More About Us</span></a>
+                            <a href="policy.html" class="action-btn"><span>More About Us</span></a>
                     </div>
                 </div>
             </div>
@@ -250,7 +269,7 @@
 
     
 
-    <section class="portfolio">
+    <section class="portfolio" style="display:none;">
         <div class="shape"></div>
         <div class="container">
             <div class="row">
@@ -265,7 +284,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="portfolio__left">
                         <div class="portfolio-box">
-                            <div class="step">1</div>
+                            <div class="step">Step 1</div>
                             <div class="icon">
                                 <svg width="38" height="40" viewbox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9.625 27.0312L1.11516 25.1201L0.25 22.3438L9.625 17.6562L19 22.3438L18.0232 25.1759L9.625 27.0312Z" fill="#1DE8F1"></path>
@@ -286,7 +305,7 @@
                             </div>
                         </div>
                         <div class="portfolio-box">
-                            <div class="step">2</div>
+                            <div class="step">Step 2</div>
                             <div class="icon">
                                 <svg width="38" height="40" viewbox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M2.95254 7.0368V9.32914H1.1348C0.494411 9.32914 0.120349 10.0513 0.489802 10.5744L4.47918 16.2224C4.79379 16.6679 5.45457 16.6679 5.76918 16.2224L9.75855 10.5744C10.128 10.0513 9.75394 9.32914 9.11355 9.32914H7.29582V7.0368C7.29582 5.55156 8.50418 4.3432 9.98949 4.3432C11.4748 4.3432 12.683 5.55156 12.683 7.0368V20.1065H17.0262V7.0368C17.0262 3.15672 13.8695 0 9.98941 0C6.10933 0 2.95254 3.15672 2.95254 7.0368Z" fill="#00E3FF"></path>
@@ -317,7 +336,7 @@
                             </div>
                         </div>
                         <div class="portfolio-box">
-                            <div class="step">3</div>
+                            <div class="step">Step 3</div>
                             <div class="icon">
                                 <svg width="40" height="36" viewbox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M28.2031 32.0625C28.2031 32.7187 27.6876 33.2344 27.0312 33.2344H12.9688C12.3124 33.2344 11.7969 32.7187 11.7969 32.0625C11.7969 31.4062 12.3124 30.8906 12.9688 30.8906H27.0312C27.6876 30.8906 28.2031 31.4062 28.2031 32.0625Z" fill="#DEC7FF"></path>
@@ -655,15 +674,15 @@
         </div>
     </section>
 
-    <section class="testimonials" style="display:none;">
+    <section class="testimonials" style="zoom:75%;">
 
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="testimonials__main">
                         <div class="block-text center">
-                            <h6 class="sub-heading"><span>Testimonials</span></h6>
-                            <h3 class="heading wow" data-splitting="">What People Say
+                            <h6 class="sub-heading"><span>Privacy And Policy</span></h6>
+                            <h3 class="heading wow" data-splitting="">Read Before Agree
                                 </h3>
                         </div>
 
@@ -672,7 +691,14 @@
                                 <div class="swiper-slide">
                                     <div class="box-testimonial center">
                                         <img src="assets/images/icon/quote.png" alt="">
-                                        <p class="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                                        <p class="text">“ We are committed to protecting your privacy. We collect only the necessary data to enhance your gaming experience and ensure a secure environment. Your information will never be shared with third parties without your consent. For any questions or concerns regarding your data, please contact our support team. By using our game, you agree to our privacy practices.
+
+
+
+
+
+
+ “</p>
                                         <div class="info">
                                             <img src="assets/images/layouts/avt-02.png" alt="">
                                             <h5 class="name">Jacob Jones</h5>
@@ -683,7 +709,9 @@
                                 <div class="swiper-slide">
                                     <div class="box-testimonial center">
                                         <img src="assets/images/icon/quote.png" alt="">
-                                        <p class="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                                        <p class="text">“ Your privacy is our priority. We gather minimal data to improve gameplay and ensure safety. We do not sell or share your personal information with others. For inquiries or data requests, reach out to our support. Continued use of our game implies acceptance of our privacy policy.
+
+ “</p>
                                         <div class="info">
                                             <img src="assets/images/layouts/avt-03.png" alt="">
                                             <h5 class="name">Jacob Jones</h5>
@@ -694,7 +722,14 @@
                                 <div class="swiper-slide">
                                     <div class="box-testimonial center">
                                         <img src="assets/images/icon/quote.png" alt="">
-                                        <p class="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                                        <p class="text">“ We value your privacy and handle your data responsibly. Information collected is used solely for enhancing your gaming experience and is protected from unauthorized access. We do not distribute your data to external parties. Contact our support team for any privacy-related questions. Using our game signifies your agreement to our privacy terms.
+
+
+
+
+
+
+ “</p>
                                         <div class="info">
                                             <img src="assets/images/layouts/avt-04.png" alt="">
                                             <h5 class="name">Jacob Jones</h5>
@@ -713,7 +748,7 @@
         </div>
     </section>
 
-    <section class="faq" style="display: none;">
+    <section class="faq">
         <div class="shape right"></div>
         <div class="container">
             <div class="row">
@@ -728,61 +763,41 @@
                     </div>
 
                     <div class="faq__main flat-tabs">
-                        <ul class="menu-tab">
-                            <li><h6 class="fs-14">Cryptocurrency</h6></li>
-                            <li class="active"> <h6 class="fs-14">NFT Token</h6></li>
-                            <li><h6 class="fs-14">Collection</h6></li>
-                            <li><h6 class="fs-14">Crypto Trading</h6></li>
-                        </ul>
                         <div class="content-tab">
                             <div class="content-inner">
                                 <div class="flat-accordion row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <h6 class="toggle-title"><span>01.</span> How do I start playing the game? <span class="icon-plus"></span></h6>
                                             <div class="toggle-content">
                                               <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
+                                                Download the game from our official website or app store, create an account, and follow the in-game tutorial to get started.
+
                                               </p>
                                             </div>
                                         </div>
                                         <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <h6 class="toggle-title"><span>02.</span> Can I play with friends?<span class="icon-plus"></span></h6>
                                             <div class="toggle-content">
                                               <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
+                                                Yes, you can invite friends to join you in multiplayer modes and collaborate or compete in various challenges.
+
                                               </p>
                                             </div>
                                         </div>
                                         <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <h6 class="toggle-title"><span>03.</span> How do I earn rewards?<span class="icon-plus"></span></h6>
                                             <div class="toggle-content">
                                               <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
+                                                Complete daily missions, achieve milestones, and participate in special events to earn rewards.
                                               </p>
                                             </div>
                                         </div>
                                         <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <h6 class="toggle-title"><span>04.</span> What should I do if I encounter a bug or issue?<span class="icon-plus"></span></h6>
                                             <div class="toggle-content">
                                               <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
+                                                Report any bugs or issues through our support page or in-game help menu. Our team will address it as quickly as possible.
                                               </p>
                                             </div>
                                         </div>
@@ -790,379 +805,28 @@
 
                                     <div class="col-md-6 col-sm-12">
                                         <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
+                                            <h6 class="toggle-title"><span>05.</span> Is my personal information safe? <span class="icon-plus"></span></h6>
                                             <div class="toggle-content">
                                               <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
+                                                Yes, we prioritize your privacy and protect your personal information. For details, please review our Privacy Policy.
                                               </p>
                                             </div>
                                           </div>
                                           <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
+                                            <h6 class="toggle-title"><span>06.</span> Can I customize my character or game settings?<span class="icon-plus"></span></h6>
                                             <div class="toggle-content">
                                               <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
+                                                Absolutely! You can personalize your character and adjust game settings through the in-game options menu.
                                               </p>
                                             </div>
                                         </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
+                                            
                                     </div>
                                     
     
                                   </div>
                             </div>
-                            <div class="content-inner">
-                                <div class="flat-accordion row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                          </div>
-                                          <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-    
-                                  </div>
-                            </div>
-                            <div class="content-inner">
-                                <div class="flat-accordion row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                          </div>
-                                          <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-    
-                                  </div>
-                            </div>
-                            <div class="content-inner">
-                                <div class="flat-accordion row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>01.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>02.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>03.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>04.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>05.</span> When the musics over turn off the light? <span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                          </div>
-                                          <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>06.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>07.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                        <div class="flat-toggle">
-                                            <h6 class="toggle-title"><span>08.</span> What is the best way to collect NFT?<span class="icon-plus"></span></h6>
-                                            <div class="toggle-content">
-                                              <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Tellus aliquam parturient erat id vel, condimentum a,
-                                                hendrerit egestas. Auctor cras diam, dui pulvinar elit.
-                                                Egestas feugiat gravida in imperdiet facilisi tortor ac
-                                                ultrices venenatis.
-                                              </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-    
-                                  </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -1170,38 +834,27 @@
             </div>
         </div>
     </section>
-
-    <section class="create">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-12">
-
-                    <div class="create__main">
-
-                        <div class="content" >
-
-                            <h4 class="heading">Get Snake game now!</h4>
-                            <p>We are avalable on Android and IOS.</p>
-
-                            
-                        
-                        </div>
-                        <img style="width:22.2%" src="https://i.imgur.com/mXO4kHs.png" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-                                <div style="display: flex; align-items: center; margin-top: -150px; z-index: 9999 !important;">
-        <img src="https://farlight84.farlightgames.com/download/img/pc/app_store_en.png" alt="App Store" style="margin-right: 10px; max-width: 100%; height: auto;">
-        <img src="https://farlight84.farlightgames.com/download/img/pc/google_en.png" alt="Google Play" style="max-width: 100%; height: auto;">
-    </div>
-        <script>
+    <script>
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault();
         });
     </script>
+    <section class="create" style="display:none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="create__main">
+                        <div class="content">
+                            <h4 class="heading">Create your NFT portfolio</h4>
+                            <p>Get udpated with news, tips & tricks</p>
+                            
+                        
+                        </div>
+                        <img src="assets/images/layouts/create.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
@@ -1210,12 +863,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="footer__main">
+                    <div class="footer__main" style="display:none;">
                         <div class="block-text center">
 
                             <h3 class="heading">Get Newsletter</h3>
                             <p>Get udpated with news, tips & tricks</p>
-
+           
                                 
                         </div>
                         <form action="#" class="form">
@@ -1233,7 +886,7 @@
                         <div class="center mb--30">
                             <ul class="list">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">Policy</a></li>
+                                <li><a href="policy.html">Policy</a></li>
                             </ul>
                             <p>Copyright © 2024, Mxmx</p>
                         </div>
@@ -1433,7 +1086,11 @@ clickEffect();
       </script>
 
     <!-- Initialize Swiper -->
-
+    <style>
+        .s4, .info {
+            display: none !important;
+        }
+    </style>
 
 </body>
 </html>
