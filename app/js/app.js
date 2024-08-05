@@ -15,10 +15,10 @@
     "use strict";
 
     //Scroll back to top
-    function handlePreloader() {
-        if ($(".preloader").length) {
+    function handleprelaader() {
+        if ($("prelaaderxx").length) {
             $("body").addClass("page-loaded");
-            $(".preloader").delay(400).fadeOut(0);
+            $("prelaaderxx").delay(400).fadeOut(0);
         }
     }
 
@@ -89,11 +89,11 @@
     themesflatTheme.init();
 
     
-    var removePreloader = function () {
+    var removeprelaader = function () {
         $(window).on('load',function () {
-            $(".preloader").css("opacity", 0);
+            $("prelaaderxx").css("opacity", 0);
             setTimeout(function () {
-                $(".preloader").hide();
+                $("prelaaderxx").hide();
             }, 1000);
         });
     };
@@ -270,7 +270,7 @@
             type: "iframe",
             mainClass: "mfp-fade",
             removalDelay: 160,
-            preloader: false,
+            prelaader: false,
             fixedContentPos: false,
           });
         }
@@ -397,8 +397,8 @@
     // Dom Ready
     $(function () {
         AOS.init();
-        removePreloader();
-        handlePreloader();
+        removeprelaader();
+        handleprelaader();
         headerFixed();
         goTop();
         mobileNav();
