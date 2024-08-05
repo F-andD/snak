@@ -27,36 +27,18 @@
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap">
     <script>
         
-        if (window.location.pathname.endsWith('.html')) {
-            const newUrl = window.location.pathname.slice(0, -5) + window.location.search;
-            window.location.replace(newUrl);
-        }
+        //if (window.location.pathname.endsWith('.html')) {
+            //const newUrl = window.location.pathname.slice(0, -5) + window.location.search;
+            //window.location.replace(newUrl);
+        //}
     </script>
 </head>
 <body class="home-main header-fixed">
 
     <div class="wrapper">
 
-<img src="https://raw.githubusercontent.com/F-andD/notforall/main/snk.svg" 
-     alt="Sliding Image" 
-     style="
-       position: absolute; 
-       bottom: 0; 
-       left: 50%; 
-       transform: translateX(-50%); 
-       animation: slideUp 5s linear forwards;
-     ">
 
-<style>
-  @keyframes slideUp {
-    from {
-      bottom: -100px; /* Adjust as needed */
-    }
-    to {
-      bottom: 100%; /* Adjust as needed */
-    }
-  }
-</style>
+
 
 
 
@@ -111,7 +93,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="about.html">About</a>
+                                        <a href="policy.html">About</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="roadmap.html">RoadMap</a>
@@ -154,12 +136,106 @@
                         <div class="block-text">
                             <h2 class="heading">Enjoy a classic,  Snake game <span class="arlo_tm_animation_text_word"></span>.</h2>
                             <p class="desc">Join our player community, engage in voice chat, and have fun!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Popup</title>
+    <style>
+        .imgcontainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
 
-                            <a href="policy.html" class="action-btn"><span>Policy</span></a>
+        .imgcontainer img {
+            max-width: 45%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            .imgcontainer {
+                justify-content: center;
+            }
+
+            .imgcontainer img {
+                max-width: 90%; /* Increase width for smaller screens */
+            }
+        }
+
+        /* Popup styles */
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) translateY(100vh);
+            background: rgba(255, 255, 255, 0.008);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .action-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h6>We are Avalable On</h6>
+
+<div class="imgcontainer">
+    <img src="https://farlight84.farlightgames.com/download/img/pc/app_store_en.png" alt="App Store" onclick="showPopup()">
+    <img src="https://farlight84.farlightgames.com/download/img/pc/google_en.png" alt="Google Play" onclick="showPopup()">
+</div>
+
+<div id="popup">
+    <h1>Will Avalable Soon in Market</h1>
+    <br>
+    <a onclick="hidePopup()" class="action-btn"><span>Close</span></a>
+</div>
+
+<script>
+    function showPopup() {
+        document.getElementById('popup').style.display = 'block';
+        setTimeout(() => {
+            document.getElementById('popup').style.transform = 'translate(-50%, -50%) translateY(0)';
+        }, 10); // Small delay to trigger the transition
+    }
+
+    function hidePopup() {
+        document.getElementById('popup').style.transform = 'translate(-50%, -50%) translateY(100vh)';
+        setTimeout(() => {
+            document.getElementById('popup').style.display = 'none';
+        }, 500); // Match the duration of the transition
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+                            <a style="display: none;" href="policy.html" class="action-btn"><span>Policy</span></a>
                         </div>
 
                         <div class="pay">
-                            <h6>We are Avalable On</h6>
+                            
 
 
                         </div>
@@ -190,7 +266,7 @@
                                 <div class="card-box s2">
 
                                     <div class="image">
-                                        <img src="https://data.pacogames.com/images/fb/wormateio.jpg" alt="">
+                                        <img src="https://i.ytimg.com/vi/WrxI-Thwuy0/maxresdefault.jpg" alt="">
                                     </div>
     
                                     <div class="content">
@@ -203,7 +279,7 @@
                                 <div class="card-box s2">
 
                                     <div class="image">
-                                        <img src="https://pbs.twimg.com/media/EE782sXXkAIxC_Q.png" alt="">
+                                        <img src="https://i.ytimg.com/vi/iWDAMlcg88o/maxresdefault.jpg" alt="">
                                     </div>
     
                                     <div class="content">
@@ -250,11 +326,10 @@
                 <div class="col-xl-6 col-md-12">
                     <div class="about__right">
                         <div class="images">
-                            <img class="img1" src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/cf9196ed-f51a-4432-8bc2-1c542b073ac1/553728816/wormate-io-screenshot.png" alt="">
-                            <img class="img2" src="https://wormate.io/images/store-coins-button.jpg" alt="">
-                            <img class="img3" src="https://cdn.titotu.io/images/videos/wormate-io-best-trolling-pro-never-mess-with-tiny-snake-epic-wormateio-funnybest-moments-42-400x226.jpg" alt="">
-                            <img class="img4" src="https://wormate.io/images/store-wear-button.jpg" alt="">
-                            <img class="img5" src="https://play-lh.googleusercontent.com/HRGIzs3BbT1sl8NP9usIQOKWgb5qxj2bsbBc2v5MEDGdPG3cngoqxn1VEVm_CbnHZ7Q" alt="">
+                            <img class="img1" src="https://play-lh.googleusercontent.com/gfQY0kW641lA6FxsfLZ2jF_euQR4pT5by_RtoipOcBsRDv5SNhfchRPntqAsQY0_DCI" alt="">
+                            <img class="img2" src="https://media.forgecdn.net/avatars/399/704/637603818215681661.png" alt="">
+                            <img class="img3" src="https://i.imgur.com/WSGitwe.png" alt="">
+                            <img class="img5" src="https://i.imgur.com/taUY9ay.jpeg" alt="">
                         </div>
                     </div>
                 </div>
@@ -264,7 +339,7 @@
                         <h3 class="heading wow" data-splitting="">High-quality game physics with voice chat.</h3>
                             <p class="mb-17">Enjoy a next-level Snake game with realistic physics and integrated voice chat for seamless multiplayer fun!</p>
                             <p class="mb-26">Experience a top-tier Snake game built in Unreal Engine 5 with stunning visuals and realistic physics. Enjoy smooth gameplay and immersive environments while chatting with friends in real-time. This game combines classic fun with modern technology for an engaging multiplayer experience.</p>
-                            <a href="about.html" class="action-btn"><span>More About Us</span></a>
+                            <a href="policy.html" class="action-btn"><span>More About Us</span></a>
                     </div>
                 </div>
             </div>
@@ -1206,17 +1281,14 @@
                     <div class="footer__main">
                         <div class="block-text center">
 
-                            <h3 class="heading">Get Newsletter</h3>
-                            <p>Get udpated with news, tips & tricks</p>
+                            <h3 class="heading">Terms And Condition</h3>
+                            <p>Read our term and conditions before joining us  !</p>
 
                                 
                         </div>
                         <form action="#" class="form">
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your email">
-                                
-                            </div>
-                            <button class="action-btn"><span>Subscribe</span></button>
+
+                            <button class="action-btn"><span>TOS</span></button>
                         </form>
                     </div>
 
@@ -1226,7 +1298,7 @@
                         <div class="center mb--30">
                             <ul class="list">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">Policy</a></li>
+                                <li><a href="policy.html">Policy</a></li>
                             </ul>
                             <p>Copyright © 2024, Mxmx</p>
                         </div>
@@ -1424,8 +1496,16 @@
 clickEffect();
 
       </script>
+          <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault(); // Prevent the default right-click menu
+        });
+    </script>
 
-    <!-- Initialize Swiper -->
+
+
+
+    
 
 
 </body>
